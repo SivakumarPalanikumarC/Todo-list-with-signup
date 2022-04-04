@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h3>Todolist</h3>
+    <div class="createList">
+        <input type="text" id="newList">
+        <button id="addList" onclick="addList()">Add task</button>
+    </div>
+    <div class="showList">
+        <ol id="myList">
+
+        </ol>
+    </div>
+    <div class="options">
+        <button onclick="clearComplete()">ClearCompleted task</button>
+        <button onclick="empty()">Empty todolist</button>
+        <button onclick="save()">Savethelist</button>
+        <button onclick="showSavedList()">ShowSavedlist</button>
+    </div>
+    
+</body>
+</html>
